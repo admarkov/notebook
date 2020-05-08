@@ -1,0 +1,25 @@
+@import "BlockHeader.css";
+
+.block {
+    width: 100%;
+    padding: 20px;
+    margin: 10px 0 0 -20px;
+}
+
+.addBlockBtn {
+    width: 200px;
+    text-align: center;
+    vertical-align: center;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    background-color: #68ffbd;
+    border-radius: 10px;
+    box-shadow: 1px 0 1px 0 #808080;
+    margin: 10px auto;
+}
+
+.addBlockBtn:hover {
+    cursor: pointer;
+    background-color: #5beaac;
+}
