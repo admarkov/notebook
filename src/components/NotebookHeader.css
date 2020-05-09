@@ -1,0 +1,21 @@
+.notebookHeader h1 {
+    float: left;
+    margin: 0;
+    color: #808080;
+}
+
+.connectionStatus {
+    float: right;
+    color: #808080;
+}
+
+.notebookHeader {
+    line-height: 50px;
+    height: 50px;
+    vertical-align: center;
+}
+
+.connectionIcon {
+    position: relative;
+    top: 1px;
+}

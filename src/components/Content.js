@@ -1,6 +1,7 @@
 import React from "react"
 
 import {Block, AddBlock} from './Block'
+import NotebookHeader from "./NotebookHeader";
 
 export default function Content(props) {
     const delim = <hr style={{margin: "0 auto", width: "90%"}} />
@@ -26,7 +27,8 @@ export default function Content(props) {
         "    return min;\n" +
         "}"
     return (
-        <div class="content">
+        <div className="content">
+            <NotebookHeader name="Notebook nammee" />
             <Block>
                 <pre>
                     {code}
