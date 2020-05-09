@@ -9,7 +9,7 @@ export default function Header(props) {
     }
     return (
       <header>
-          <h1 className="headerLogo">admarkov notebook</h1>
+          <h1 className="headerLogo"><a href="/">admarkov notebook</a></h1>
       </header>
     );
 }
